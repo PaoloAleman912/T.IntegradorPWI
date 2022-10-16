@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleMetodosDePago.css">
+    <link rel="stylesheet" href="css/estilosFormularios.css">
+
+    <title>Métodos de Pago</title>
+</head>
+<body>
+
+<div class="general">
+    <!--Título de la nueva tarjeta-->
+<form action="#" method="post">
+        <h1>Nueva tarjeta</h1>
+
+        <!--Ingreso del alias -->
+
+<label for="alias">Alias </label>
+<input type="text" id="alias" name="alias" placeholder="Ingresar alias" required>
+<br>
+        <!--Ingreso del número de la tarjeta -->
+
+<label for="numeroTarjeta">Número de Tarjeta</label>
+<input type="text" id="numeroTarjeta" name="numeroTarjeta" placeholder="Ingresar número" required>
+<br>
+        <!--Ingreso del código -->
+
+<label for="codigo">Código</label>
+<input type="text" id="codigo" name="codigo" placeholder="Cod." required >
+
+        <!--Ingreso del vencimiento, sin salto de línea-->
+
+<label for="vencimiento">Vencimiento</label>
+<input type="text" id="vencimiento" name="vencimiento" placeholder="Vto."  required >
+<br>
+
+        <!--Ingreso del nombre del titular-->
+
+<label for="nombreTitular">Nombre del Titular</label>
+<input type="text" id="nombreTitular" name="nombreTitular" placeholder="Ingresar nombre"  required>
+<br>
+
+        <!--Envío del formulario-->
+
+<input type="submit" value="Guardar">
+
+</form>
+</div>
+</body>
+</html>

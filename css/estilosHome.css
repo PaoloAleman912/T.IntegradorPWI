@@ -1,0 +1,76 @@
+
+/* Modificaciones al Carrousel */
+
+.contenedorDeCarrouseles{
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgb(121, 0, 0);
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carrousel{
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrousel{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.flechasCarrousel{
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.tarjetaCarrousel img{
+    height: 80%;
+    width: 25%;
+    border: 2px solid white;
+    color: white;
+    background-color: white;
+
+}
+
+
+.categorias{
+    border: 2px solid white;
+    height: 100%;
+    width: 25%;
+ 
+}
+
+.categorias section{
+    height: 70%;
+    width: 100%;
+
+}
+
+.categorias section img{
+    height: 100%;
+    width: 100%;
+}
+.categorias .recuadroInferior{
+    height: 30%;
+    width: 100%;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 0, 0);
+    
+    color: white;
+}

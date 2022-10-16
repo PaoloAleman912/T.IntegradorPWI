@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosFormularios.css">
+    <title>Pagar</title>
+</head>
+<body>
+    <div  class="general2">
+    <form action="#" method="post">
+        <h1>Pagar</h1>
+
+        <label for="tarjetasGuardadas">Tarjetas guardadas</label>
+        <select name="tarjetas" id="tarjetas">
+            <option value="1">Visa débito</option>
+            <option value="2">Ualá</option>
+        </select>
+        <br>
+    </form>
+        <form action="#" method="post" class="otraDireccionTarjeta">
+        <input id="otraDT" type="checkbox" name="otraTarjeta" value="otraTarjeta">
+        <label for="otraTarjeta2">Otra tarjeta</label>
+        <br>
+    </form>
+
+        <form action="#" method="post">
+            <label for="numeroTarjeta">Número de la tarjeta</label>
+            <input type="text" name="numero" id="numero" placeholder="Ingresar número">
+            <br>
+            <label for="codigo">Código</label>
+            <input type="text" name="codigo" id="codigo" placeholder="Cod.">
+            <label for="vto">Vencimiento</label>
+            <input type="date" name="fecha" id="fecha" placeholder="Vto.">
+            <br>
+            <label for="nombreTitular">Nombre del titular</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre">
+        <br>
+        <label for="direccionesGuardadas">Direcciones guardadas</label>
+        <select name="direcciones" id="direcciones">
+            <option value="1">Florencio Varela 1903</option>
+            <option value="2">Av. Figueroa Alcorta 7597 </option>
+        </select>
+        <br>
+    </form>
+       <form action="#" method="post" class="otraDireccionTarjeta">
+        <input id="otraDT" type="checkbox" name="otraDireccion" value="otraDireccion">
+        <label for="otraDireccion">Otra dirección</label>
+       </form>
+    </div>
+</body>

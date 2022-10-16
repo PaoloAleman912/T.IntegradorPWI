@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(cssImg/strawhat.png);
+    background-position: center;
+    background-size: 100%;
+    background-color: rgb(43, 43, 43);
+    
+}
+/* Modificaciones al Header*/
+.parteSuperior{
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.car{
+    height: 70%; 
+}
+
+.logo{
+    height: 100%;
+}
+
+
+#buscar{
+    width: 500px;
+    height: 40%;
+    border: 0.5px solid black;
+    padding: 7px;
+}
+
+.contenedor{
+    border: 0.5px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor a{
+    border: 0.5px solid black;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 120px;
+    width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 0, 0);
+    color: white;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home{
+    background-color: rgb(68, 0, 0);
+}
+
+.categoria{
+    background-color: rgb(68, 0, 0);
+}
+
+.contacto{
+    background-color: rgb(68, 0, 0);
+}
+
+.miCuenta{
+    background-color: rgb(68, 0, 0);
+}
+
+/* Modificaciones al footer*/
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border: 0.5px solid black;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.footer article{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.terceraColumna img{
+    height: 75px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Modificaciones a los colores*/
+
+header{
+    background-color: rgb(121, 0, 0);
+}
+
+footer{
+    background-color: rgb(121, 0, 0);
+
+    color: white;
+}

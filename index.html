@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximumscale=1">  
+    <link rel="stylesheet" href="css/estilosHome.css">
+    <link rel="stylesheet" href="css/estilosGeneral.css">
+    <link rel="stylesheet" href="css/estilosGeneralCategorias.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="parteSuperior">
+            <img src="img/strawhat.png" alt="Logo" class="logo">
+             <input type="text" name="buscar" id="buscar" placeholder="Buscar...">
+            <a href="carrito.html"> <img src="img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="Carrito" class="car">
+            </a>        
+ </div>
+     
+             <nav class="contenedor">
+                <a href="index.html" class="home">Home</a>
+                     <a href="categorias.html">Categorías</a>
+                     <a href="contacto.html">Contacto</a>
+                     <a href="miCuenta.html">Mi Cuenta</a>
+             </nav>
+    </header>
+     <!-- Carrousel -->
+     <main>
+       <div class="contenedorDeCarrouseles">
+        <div class="carrousel">
+            <div class="tarjetaCarrousel" id="TC-1">
+                <img src="img/leches.jpg" alt="Leche">
+                <img src="img/coca-cola.jpg" alt="Coca-Cola">
+                <img src="img/galletasOreo.webp" alt="Oreo">
+            </div>
+            <div class="flechasCarrousel">
+                <a href="#TC-2"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
+                <a href="#TC-2"> <img src="img/navigate_next_FILL0_wght400_GRAD0_opsz48.png" alt="FlechaDer"></a>
+              </div>
+        </div>
+        <div class="carrousel">
+            <div class="tarjetaCarrousel" id="TC-2">
+            <img src="img/queso.webp" alt="Queso">
+            <img src="img/baggio.jpg" alt="Baggio">
+            <img src="img/pepitos.jpg" alt="Pepitos">
+        </div>
+            <div class="flechasCarrousel">
+                <a href="#TC-1"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
+                <a href="#TC-1"> <img src="img/navigate_next_FILL0_wght400_GRAD0_opsz48.png" alt="FlechaDer"></a>
+             </div>
+        </div>
+       
+       </div>
+       <!-- Categorías -->
+<div class="h1">
+    <h1>Categorías principales</h1>
+</div>
+       <div class="generalPmV">
+        <div class="contenedorDeProductos">
+            <button class="categorias">
+               <section>
+                <img src="img/agua.jpg" alt="Bebidas">
+               </section>
+
+               <section class="recuadroInferior">
+                <p>Bebidas</p>
+                </section>
+            </button>
+
+            <button class="categorias">
+                <section>
+                    <img src="img/leche.jpg" alt="Lacteos">
+                   </section>
+    
+                   <section class="recuadroInferior">
+                    <p>Lacteos</p>
+                    </section>
+            </button>
+
+            <button class="categorias">
+                <section>
+                    <img src="img/galletas.jpg" alt="Galletas">
+                   </section>
+    
+                   <section class="recuadroInferior">
+                    <p>Galletas</p>
+                    </section>
+            </button>
+
+
+           
+        </div>
+    </div>
+
+     
+    <!-- Productos más vendidos -->
+    <div class="h1"> 
+           <h1>Productos más vendidos</h1>
+    </div>
+    <div class="generalPmV">
+        <div class="contenedorDeProductos">
+            <section class="productos">
+                <a href="bebidasCocaCola.html">
+                    <article>
+                        <img src="img/coca-cola.jpg" alt="Coca-Cola">
+                        <p class="texto">$200</p>
+                    </article>
+                </a>
+                    <article class="recuadroInferior">
+                        <label for="palabra" class="nombreProducto">Coca-Cola</label>
+                        <form action="#" method="post">
+                        <button class="carrito">
+                                <img src="img/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="carrito">
+                            </button>
+                        </form>  
+                    </article>
+                
+            </section>
+
+            <section class="productos">
+                <a href="lacteosLeche.html">
+                  <article>
+                    <img src="img/leches.jpg" alt="Leche">
+                      <p class="texto">$120</p>
+                  </article>
+                </a>
+                  <article class="recuadroInferior">
+                      <label for="palabra" class="nombreProducto">Leche</label>
+                      <form action="#" method="post">
+                      <button class="carrito">
+                          <img src="img/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="carrito">
+                              </button>
+                      </form>  
+                  </article>
+              </section>
+            <section class="productos">
+                <a href="bebidasBaggio.html">
+                 <article>
+                    <img src="img/baggios.jpg" alt="Baggio">
+                     <p class="texto">$150</p>
+                 </article>
+                </a>
+
+                 <article class="recuadroInferior">
+                     <label for="palabra" class="nombreProducto">Baggio</label>
+                     <form action="#" method="post">
+                     <button class="carrito">
+                         <img src="img/add_shopping_cart_FILL0_wght400_GRAD0_opsz24.svg" alt="carrito">
+                         </button>
+                     </form>  
+                 </article>
+             </section>
+        </div>
+    </div>
+
+   <div class="h1">
+     <h1>Formas de Pago</h1>
+   </div>
+
+    <div class="contenedorDeCarrouseles">
+        <div class="carrousel">
+            <div class="tarjetaCarrousel" id="TC-1A">
+                <img src="img/mastercard.png" alt="MasterCard">
+                <img src="img/paypal.webp" alt="Paypal">
+                <img src="img/bancoNacion.png" alt="Banco Nación">
+            </div>
+            <div class="flechasCarrousel">
+                <a href="#TC-2B"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
+                <a href="#TC-2B"> <img src="img/navigate_next_FILL0_wght400_GRAD0_opsz48.png" alt="FlechaDer"></a>
+              </div>
+        </div>
+        <div class="carrousel">
+            <div class="tarjetaCarrousel" id="TC-2B">
+            <img src="img/bancoGalicia.png" alt="Galicia">
+            <img src="img/visadebito.png" alt="Visa Debito">
+            <img src="img/uala.jpg" alt="Ualá">
+        </div>
+            <div class="flechasCarrousel">
+                <a href="#TC-1A"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
+                <a href="#TC-1A"> <img src="img/navigate_next_FILL0_wght400_GRAD0_opsz48.png" alt="FlechaDer"></a>
+             </div>
+        </div>
+        
+       </div>
+    </main>
+    
+    <footer>
+        <section class="footer">
+            <article>
+                <img src="img/strawhat.png" class="logo" alt="Logo">
+                <p>Lunes a Sábado, de 8 a 20hrs</p>
+            </article>
+        <article>
+                <p>Autor: Paolo Aleman, 45918917</p>
+            </article>
+         <article class="terceraColumna">
+                <p>Links de redes sociales</p>        
+                <a href="https://www.tiktok.com/@unlamoficialok?_t=8W6Y9oAoEVx&_r=1"><img src="img/tiktok.svg" alt="TikTok">
+                <a href="https://www.instagram.com/unlamoficial/"><img src="img/instagram.svg" alt="Instragram">  </a>
+            </article>
+        </section>
+    </footer>
+</body>
+</html>

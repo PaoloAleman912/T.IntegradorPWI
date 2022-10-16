@@ -1,0 +1,87 @@
+.generalPmV{
+
+    height: 200px;
+    width: 100%;
+    margin-bottom: 50px;
+   
+}
+
+.contenedorDeProductos{
+
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos{
+    border: 2px solid white;
+    height: 100%;
+    width: 25%;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.productos article img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.productos article{
+    border-bottom: 2px solid white;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;    
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.productos .recuadroInferior{
+    border-bottom: none;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(121, 0, 0);
+    color: white;
+}
+
+.productos .carrito{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    border: 0.5px solid black;
+}
+
+.productos #formulario{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos #cantidad {
+    border: 0.5px solid black;
+
+}
+
+.texto{
+    border: 0.5px solid black;
+    border-right:none;
+    width: 15%;
+    margin-bottom: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    position: absolute;
+}
+
+

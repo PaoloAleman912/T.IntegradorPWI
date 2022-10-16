@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilosMisDirecciones.css">
+    <link rel="stylesheet" href="css/estilosFormularios.css">
+    <title>Mis direcciones</title>
+</head>
+<body>
+    
+    <div class="general">
+            
+        <form action="#" method="post">
+            <h1>Nueva dirección</h1>
+            
+            <br>
+            <label for="alias">Alias</label>
+            <input type="text" name="alias" id="alias" placeholder="Ingresar alias" required>
+            <br>
+            <label for="provincia">Provincia</label>
+            <select name="provincia" id="provincia">
+                <option value="1">Buenos Aires</option>
+                <option value="2">Córdoba</option>
+                <option value="3">Santa Fe</option>
+                <option value="4">Misiones</option>
+                <option value="5">Entre Ríos</option>
+            </select>
+            <br>
+            <label for="localidad">Localidad</label>
+            <select name="localidad" id="localidad">
+                <option value="1">Laferrere</option>
+                <option value="2">Bahía Blanca</option>
+                <option value="3">Ezeiza</option>
+                <option value="4">Colón</option>
+                <option value="5">San Bernardo</option>
+            </select>
+            <br>
+            <label for="direccion">Dirección</label>
+            <input type="text" required name="direccion" id="direccion" placeholder="Ingresar dirección">
+            <br>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" required name="telefono" id="telefono" placeholder="Ingresar teléfono">
+            <br>
+            <label for="piso">Piso</label>
+            <input type="text" name="piso" id="piso" placeholder="Piso" >
+            <label for="departamento">Dpto.</label>
+            <input type="text" name="dpto" id="dpto" placeholder="Dpto.">
+            <br>
+            <input type="submit" name="guardar" id="guardar" value="Guardar">
+        </form>
+    </div>
+</body>
+</html>

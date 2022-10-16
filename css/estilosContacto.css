@@ -1,0 +1,75 @@
+
+/* Modificaciones al main*/
+
+.general{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label{
+    color: white;
+}
+
+.datos{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+.datos p{
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 40px;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(121, 0, 0);
+    color: white;
+}
+
+.general h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.general input{
+    width: 90%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+}
+
+#comentarios{
+    border: 2px solid white;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+#enviar{
+    width: 50%;
+}
+
+.mapa{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}

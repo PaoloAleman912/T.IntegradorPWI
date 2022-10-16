@@ -1,0 +1,101 @@
+
+/* Modificaciones al main*/
+
+.general{
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recuadroImagen{
+    border: 0.5px solid black;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.descripcion{
+    height: 100%;
+    width: 45%;
+}
+
+.imagen{
+    height: 100%;
+
+}
+
+.imagen img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    justify-content: none;
+
+}
+
+.precio{
+    border: 0.5px solid black;
+    height: 50px;
+    width: 20%;
+    position: absolute;
+    right: 708px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+    font-size: 30px;
+
+}
+
+h1{
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.parrafo{
+    border: 2px solid white;
+    border-radius: 40px;
+    background-color: rgb(121, 0, 0);
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    color: white;
+    height: 65%;
+    width: 100%;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    align-self: flex-red;
+    height: 15%;
+    width: 100%;
+}
+
+.carrito{
+    height: 50%;
+    width: 50px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+#cantidad{
+    height: 50%;
+    width: 50px;
+}
+
