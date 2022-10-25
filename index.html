@@ -7,33 +7,38 @@
     <link rel="stylesheet" href="css/estilosHome.css">
     <link rel="stylesheet" href="css/estilosGeneral.css">
     <link rel="stylesheet" href="css/estilosGeneralCategorias.css">
-
+  <!-- <script src="js/codigoGeneral.js"></script>
+--> 
     <title>Home</title>
 </head>
 <body>
     <header>
-        <div class="parteSuperior">
+        <div id="parteSuperior">
             <img src="img/strawhat.png" alt="Logo" class="logo">
              <input type="text" name="buscar" id="buscar" placeholder="Buscar...">
-            <a href="carrito.html"> <img src="img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="Carrito" class="car">
-            </a>        
- </div>
-     
-             <nav class="contenedor">
-                <a href="index.html" class="home">Home</a>
-                     <a href="categorias.html">Categorías</a>
-                     <a href="contacto.html">Contacto</a>
-                     <a href="miCuenta.html">Mi Cuenta</a>
-             </nav>
+            <a href="carrito.html"> <img src="img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="Carrito" class="car"></a>        
+        </div>
+            <nav id="contenedor">
+               <table>
+                <tr> 
+                    <td id="home"><a href="index.html">Home</a></td>                   
+                    <td id="categoria"><a href="categorias.html">Categorías</a></td>
+                    <td id="contacto"><a href="contacto.html">Contacto</a></td>
+                    <td id="miCuenta"><a href="miCuenta.html">Mi Cuenta</a></td>
+                </tr>
+               </table>
+            </nav>
     </header>
      <!-- Carrousel -->
      <main>
        <div class="contenedorDeCarrouseles">
         <div class="carrousel">
             <div class="tarjetaCarrousel" id="TC-1">
-                <img src="img/leches.jpg" alt="Leche">
+                
+                    <img src="img/leches.jpg" alt="Leche">
                 <img src="img/coca-cola.jpg" alt="Coca-Cola">
                 <img src="img/galletasOreo.webp" alt="Oreo">
+                
             </div>
             <div class="flechasCarrousel">
                 <a href="#TC-2"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
@@ -50,8 +55,7 @@
                 <a href="#TC-1"> <img src="img/navigate_before_FILL0_wght400_GRAD0_opsz48 (1).png"alt="FlechaIzq"></a>
                 <a href="#TC-1"> <img src="img/navigate_next_FILL0_wght400_GRAD0_opsz48.png" alt="FlechaDer"></a>
              </div>
-        </div>
-       
+        </div> 
        </div>
        <!-- Categorías -->
 <div class="h1">
@@ -95,7 +99,8 @@
     </div>
 
      
-    <!-- Productos más vendidos -->
+    <!--Productos más vendidos--> 
+    
     <div class="h1"> 
            <h1>Productos más vendidos</h1>
     </div>
@@ -187,19 +192,17 @@
     </main>
     
     <footer>
-        <section class="footer">
-            <article>
-                <img src="img/strawhat.png" class="logo" alt="Logo">
-                <p>Lunes a Sábado, de 8 a 20hrs</p>
-            </article>
-        <article>
-                <p>Autor: Paolo Aleman, 45918917</p>
-            </article>
-         <article class="terceraColumna">
-                <p>Links de redes sociales</p>        
-                <a href="https://www.tiktok.com/@unlamoficialok?_t=8W6Y9oAoEVx&_r=1"><img src="img/tiktok.svg" alt="TikTok">
-                <a href="https://www.instagram.com/unlamoficial/"><img src="img/instagram.svg" alt="Instragram">  </a>
-            </article>
+        <section>
+            <img src="img/strawhat.png" class="logo" alt="Logo">
+            <p>Lunes a Sábado, de 8 a 20hrs</p>
+        </section>
+        <section>
+            <p>Autor: Paolo Aleman, 45918917</p>
+        </section>
+        <section >
+            <p>Links de redes sociales</p>        
+            <a href="https://www.tiktok.com/@unlamoficialok?_t=8W6Y9oAoEVx&_r=1"><img src="img/tiktok.svg" alt="TikTok">
+            <a href="https://www.instagram.com/unlamoficial/"><img src="img/instagram.svg" alt="Instragram">  </a>
         </section>
     </footer>
 </body>

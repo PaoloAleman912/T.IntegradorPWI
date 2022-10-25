@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilosGeneralCategorias.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximumscale=1">  
+    <link rel="stylesheet" href="css/estilosHome.css">
     <link rel="stylesheet" href="css/estilosGeneral.css">
-    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
-
-    <title>Categorías</title>
+    <link rel="stylesheet" href="css/estilosGeneralCategorias.css">
+  <!-- <script src="js/codigoGeneral.js"></script>
+--> 
+    <title>Home</title>
 </head>
 <body>
     <header>
-        <div class="parteSuperior">
+        <div id="parteSuperior">
             <img src="img/strawhat.png" alt="Logo" class="logo">
              <input type="text" name="buscar" id="buscar" placeholder="Buscar...">
-             <a href="carrito.html"><img src="img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="Carrito" class="car">        </a>
-            </div>
-
-             <nav class="contenedor">
-                     <a href="index.html">Home</a>
-                     <a href="categorias.html" class="categoria">Categorías</a>
-                     <a href="contacto.html">Contacto</a>
-                     <a href="miCuenta.html">Mi Cuenta</a>
-             </nav>
+            <a href="carrito.html"> <img src="img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg" alt="Carrito" class="car"></a>        
+        </div>
+            <nav id="contenedor">
+               <table>
+                <tr> 
+                    <td><a href="index.html" class="home">Home</a></td>                   
+                    <td><a href="categorias.html" id="categoria">Categorías</a></td>
+                    <td><a href="contacto.html" id="contacto">Contacto</a></td>
+                    <td><a href="miCuenta.html" id="miCuenta">Mi Cuenta</a></td>
+                </tr>
+               </table>
+            </nav>
     </header>
-
+    
     <main>
 <div class="h1"> <h1>Categorías</h1></div>
         <div class="generalPmV">
@@ -107,19 +111,17 @@
     </main>
 
     <footer>
-        <section class="footer">
-            <article>
-                <img src="img/strawhat.png" class="logo" alt="Logo">
-                <p>Lunes a Sábado, de 8 a 20hrs</p>
-            </article>
-        <article>
-                <p>Autor: Paolo Aleman, 45918917</p>
-            </article>
-         <article class="terceraColumna">
-                <p>Links de redes sociales</p>        
-                <a href="https://www.tiktok.com/@unlamoficialok?_t=8W6Y9oAoEVx&_r=1"><img src="img/tiktok.svg" alt="TikTok">
-                <a href="https://www.instagram.com/unlamoficial/"><img src="img/instagram.svg" alt="Instragram">  </a>
-            </article>
+        <section>
+            <img src="img/strawhat.png" class="logo" alt="Logo">
+            <p>Lunes a Sábado, de 8 a 20hrs</p>
+        </section>
+        <section>
+            <p>Autor: Paolo Aleman, 45918917</p>
+        </section>
+        <section >
+            <p>Links de redes sociales</p>        
+            <a href="https://www.tiktok.com/@unlamoficialok?_t=8W6Y9oAoEVx&_r=1"><img src="img/tiktok.svg" alt="TikTok">
+            <a href="https://www.instagram.com/unlamoficial/"><img src="img/instagram.svg" alt="Instragram">  </a>
         </section>
     </footer>
 </body>

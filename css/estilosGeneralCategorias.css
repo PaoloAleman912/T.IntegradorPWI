@@ -1,39 +1,24 @@
 .generalPmV{
-
-    height: 200px;
-    width: 100%;
-    margin-bottom: 50px;
-   
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contenedorDeProductos{
-
-    width: 90%;
     height: 100%;
-    margin: auto;
+    width: 90%;
     display: flex;
     justify-content: space-around;
 }
 
 .productos{
-    border: 2px solid white;
     height: 100%;
-    width: 25%;
- 
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.productos article img{
-    height: 100%;
-    width: 100%;
-    position: relative;
+    width: 30%;
+    border: 5px solid white;
 }
 
 .productos article{
-    border-bottom: 2px solid white;
-    height: 70%;
+    height: 80%;
     width: 100%;
     display: flex;
     align-items: flex-end;    
@@ -41,47 +26,41 @@ a{
     background-color: white;
 }
 
-.productos .recuadroInferior{
-    border-bottom: none;
-    height: 30%;
+.productos article img{
+    height: 100%;
     width: 100%;
+    position: relative;
+
+}
+
+.productos article p{
+    border:1px solid black ;
+    border-right: none;
+    border-bottom-left-radius:10px ;
+    border-top-left-radius:10px ;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(160, 0, 0);
+    margin-bottom: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos .recuadroInferior{
+    border-top:2.5px solid black ;
+    height: 20%;
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(121, 0, 0);
+    background-color: rgb(160, 0, 0);
     color: white;
 }
 
-.productos .carrito{
+.productos .recuadroInferior .carrito{
+    height: 80%;
     width: 35px;
-    height: 35px;
-    margin-left: 20px;
-    border: 0.5px solid black;
 }
-
-.productos #formulario{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.productos #cantidad {
-    border: 0.5px solid black;
-
-}
-
-.texto{
-    border: 0.5px solid black;
-    border-right:none;
-    width: 15%;
-    margin-bottom: 5px;
-    text-align: center;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    background-color: white;
-    position: absolute;
-}
-
 
